@@ -18,3 +18,4 @@ with _st.form("application"):
             _st.session_state.parsedResume = extract_information(filePath)
             _st.session_state.description  = description.strip()
             _st.success("Submitted successfully")
+            print("dss")
